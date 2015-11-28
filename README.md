@@ -54,3 +54,8 @@ const MyPrimarilyUnselectableComponent = React.createClass({
   }
 });
 ```
+
+<div>
+  <div style='font-size: 35px; padding: 24px;'>Good luck trying to select me!</div>
+  <div style='color: red; height: 20px;'>...and me.</div>
+</div>
