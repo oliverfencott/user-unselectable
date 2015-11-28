@@ -56,6 +56,25 @@ const MyPrimarilyUnselectableComponent = React.createClass({
 ```
 
 <div>
-  <div style='font-size: 35px; padding: 24px;'>Good luck trying to select me!</div>
-  <div style='color: red; height: 20px;'>...and me.</div>
+  <style>
+    .one {
+      font-size: 35px;
+      padding: 24px;
+    }
+    
+    .two {
+      color: red;
+      height: 20px;
+    }
+    
+    .no-select {
+      cursor: default;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+  </style>
+  <div class='one no-select'>Good luck trying to select me!</div>
+  <div class='two no-select'>...and me.</div>
 </div>
