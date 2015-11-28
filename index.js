@@ -9,5 +9,5 @@ var userUnselectable = {
 };
 
 module.exports = function(styleObject) {
-  return _.merge(userUnselectable, styleObject);
+  return _.merge(_.clone(userUnselectable), styleObject);
 };
