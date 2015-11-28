@@ -4,7 +4,7 @@ A React package to easily inline style elements as not user selectable.
 
 ### Why?
 
-Because I really don't like using web apps and being able to select all of the elements and text, and I got sick of having to write 
+Because I really don't like using a web app that allows me to select all of the elements and text, I find it clumsy and messy, and I got sick of having to write 
 
 ```js
   cursor: 'default',
