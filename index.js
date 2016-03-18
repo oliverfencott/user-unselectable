@@ -1,4 +1,4 @@
-var lodash = require('lodash');
+var _ = require('lodash');
 
 var userUnselectable = {
   cursor: 'default',

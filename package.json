@@ -1,6 +1,6 @@
 {
   "name": "user-unselectable",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A React package to easily inline style elements as not user selectable.",
   "main": "index.js",
   "scripts": {
